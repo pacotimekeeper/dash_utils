@@ -126,5 +126,5 @@ def update_pattern(_, numbers_value):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
+    app.run(host="0.0.0.0", port=6023, debug=True)
+    print("Server running on http://0.0.0.0:6023")
